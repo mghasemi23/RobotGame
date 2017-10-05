@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="565.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.tablePack.DesignController">
+   <children>
+      <Label alignment="CENTER" layoutY="6.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="200.0" text="Red Team" textAlignment="CENTER" textFill="RED" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="Agatha Needs Flesh" size="50.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="83.0" prefHeight="46.0" prefWidth="101.0" text="Alive Robots:" textAlignment="CENTER" textFill="RED" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="83.0">
+         <font>
+            <Font name="Agatha Needs Flesh" size="27.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="diagonal_Iv" fitHeight="75.0" fitWidth="69.0" layoutY="139.0" preserveRatio="true" AnchorPane.leftAnchor="0.0">
+         <image>
+            <Image url="@../file/diagonal_r.png" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="horizontal_Iv" fitHeight="69.0" fitWidth="69.0" layoutY="219.0" preserveRatio="true" AnchorPane.leftAnchor="0.0">
+         <image>
+            <Image url="@../file/horizontal_r.png" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="vertical_Iv" fitHeight="69.0" fitWidth="69.0" layoutY="298.0" preserveRatio="true" AnchorPane.leftAnchor="0.0">
+         <image>
+            <Image url="@../file/vertical_r.png" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="horse_Iv" fitHeight="69.0" fitWidth="88.0" layoutY="377.0" preserveRatio="true" AnchorPane.leftAnchor="0.0">
+         <image>
+            <Image url="@../file/horse_r.png" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <JFXButton fx:id="menu" alignment="CENTER" layoutX="35.0" layoutY="485.0" onAction="#menuSetOnAction" prefHeight="25.0" prefWidth="49.0" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="Menu" textFill="WHITE" AnchorPane.leftAnchor="35.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <JFXButton fx:id="exit" alignment="CENTER" layoutX="76.0" layoutY="521.0" onAction="#exitSetOnAction" prefHeight="25.0" prefWidth="49.0" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="Exit" textFill="WHITE" AnchorPane.leftAnchor="76.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <JFXButton fx:id="save" alignment="CENTER" layoutX="115.0" layoutY="485.0" onAction="#saveSetOnAction" prefHeight="25.0" prefWidth="49.0" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="Save" textFill="WHITE" AnchorPane.leftAnchor="115.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <Label layoutX="71.0" layoutY="145.0" prefHeight="46.0" prefWidth="59.0" text="Number:" textFill="RED" AnchorPane.leftAnchor="71.0">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="231.0" prefHeight="46.0" prefWidth="59.0" text="Number:" textFill="RED" AnchorPane.leftAnchor="71.0">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="310.0" prefHeight="46.0" prefWidth="59.0" text="Number:" textFill="RED" AnchorPane.leftAnchor="71.0">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="389.0" prefHeight="46.0" prefWidth="59.0" text="Number:" textFill="RED" AnchorPane.leftAnchor="71.0">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="diagonal_Lbl" alignment="CENTER" layoutX="130.0" layoutY="145.0" prefHeight="46.0" prefWidth="59.0" text="10" textAlignment="CENTER" textFill="RED" AnchorPane.leftAnchor="130.0">
+         <font>
+            <Font name="Agency FB" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="horizontal_Lbl" alignment="CENTER" layoutX="130.0" layoutY="231.0" prefHeight="46.0" prefWidth="59.0" text="10" textAlignment="CENTER" textFill="RED" AnchorPane.leftAnchor="130.0">
+         <font>
+            <Font name="Agency FB" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="vertical_Lbl" alignment="CENTER" layoutX="130.0" layoutY="310.0" prefHeight="46.0" prefWidth="59.0" text="10" textAlignment="CENTER" textFill="RED" AnchorPane.leftAnchor="130.0">
+         <font>
+            <Font name="Agency FB" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="horse_Lbl" alignment="CENTER" layoutX="130.0" layoutY="389.0" prefHeight="46.0" prefWidth="59.0" text="10" textAlignment="CENTER" textFill="RED" AnchorPane.leftAnchor="130.0">
+         <font>
+            <Font name="Agency FB" size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

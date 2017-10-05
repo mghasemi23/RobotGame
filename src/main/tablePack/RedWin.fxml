@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #00ff22;" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.tablePack.WinController">
+   <children>
+      <Label alignment="CENTER" layoutX="43.0" layoutY="161.0" text="Red Team Wins!" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font name="Agatha Needs Flesh" size="74.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.03" height="26.93" radius="15.19" width="35.83">
+               <input>
+                  <DropShadow height="50.65" radius="21.86" spread="0.2" width="38.79" />
+               </input>
+            </InnerShadow>
+         </effect>
+      </Label>
+      <JFXButton fx:id="back" buttonType="RAISED" layoutX="331.0" layoutY="14.0" onAction="#backSetOnAction" prefHeight="55.0" prefWidth="55.0" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="Menu" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton fx:id="exit" buttonType="RAISED" layoutX="331.0" layoutY="84.0" onAction="#exitSetOnAction" prefHeight="55.0" prefWidth="55.0" ripplerFill="WHITE" style="-fx-background-color: #ff0000;" text="Exit" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+   </children>
+</AnchorPane>
